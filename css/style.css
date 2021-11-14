@@ -1,0 +1,83 @@
+* {
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		outline: none;
+}
+
+body, html {
+		width: 100%;
+		height: 100%;
+		background: url("../img/gradient.jpg");
+		background-size: 100%;
+		background-position: center cover;
+		background-repeat: no-repeat;
+}
+body .wrap, html .wrap {
+		position: relative;
+		align-items: center;
+		width: 100%;
+		height: 100%;
+		min-width: 350px;
+}
+body .wrap .icons, html .wrap .icons {
+		display: flex;
+		flex-direction: column;
+}
+body .wrap .btn, html .wrap .btn {
+		position: absolute;
+		justify-content: center;
+		align-items: center;
+		background: black;
+		border-color: #3498db;
+		color: #fff;
+		cursor: pointer;
+		border-radius: 20%;
+		box-shadow: 0 0 40px 40px #3498db inset, 0 0 0 0 #3498db;
+		-webkit-transition: all 150ms ease-in-out;
+		transition: all 150ms ease-in-out;
+		z-index: 10;
+		margin-top: 2%;
+		margin-left: -10%;
+}
+body .wrap .btn--start, html .wrap .btn--start {
+		font-family: serif;
+		font-weight: bold;
+}
+body .wrap .cash, body .wrap .bet, html .wrap .cash, html .wrap .bet {
+		position: relative;
+		width: 25%;
+		left: 73%;
+		padding: 1% 4%;
+		font: 24px monospace;
+		color: white;
+		background: black;
+		border-radius: 20%;
+		border: 3px solid blue;
+		box-shadow: 0 0 40px 40px #3498db inset, 0 0 0 0 #3498db;
+}
+body .wrap .cash, html .wrap .cash {
+		margin-top: 14%;
+}
+body .wrap .bet, html .wrap .bet {
+		bottom: 2%;
+		margin-top: 2%;
+		border: 2px solid purple;
+}
+body .wrap .valute, html .wrap .valute {
+		margin-left: auto;
+		margin-right: 0.25rem;
+		color: lime;
+		font-family: serif;
+}
+body .wrap canvas, html .wrap canvas {
+		position: relative;
+		left: 10%;
+		width: 60%;
+		height: 60%;
+		margin-top: -18%;
+		border: 3px solid black;
+		border-radius: 20%;
+		box-shadow: inset 0px -3px 50px #382eb4;
+		background: #63b7e6;
+}
