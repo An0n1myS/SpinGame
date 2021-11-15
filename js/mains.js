@@ -85,14 +85,14 @@ class Drum {
         this.ctx.textAlign = 'center';
         this.ctx.textBaseline = 'middle';
         this.ctx.font = `bold ${this.h}px monospace`;
-        this.ctx.shadowColor="black";
+        
         this.ctx.shadowBlur=15;
         this.ctx.lineWidth=5; 
         this.ctx.strokeText(text, x, y, maxWidth);
       
         if (isFill) {
             this.ctx.shadowBlur=0;
-            this.ctx.fillStyle="white";
+            this.ctx.fillStyle="black";
             this.ctx.fillText(text, x, y, maxWidth);
         }
     }
