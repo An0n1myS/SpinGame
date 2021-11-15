@@ -92,7 +92,7 @@ class Drum {
       
         if (isFill) {
             this.ctx.shadowBlur=0;
-            this.ctx.fillStyle="black";
+            this.ctx.fillStyle="gold";
             this.ctx.fillText(text, x, y, maxWidth);
         }
     }
